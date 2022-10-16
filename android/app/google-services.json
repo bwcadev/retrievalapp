@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "337343333139",
+    "project_id": "csretrieval",
+    "storage_bucket": "csretrieval.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337343333139:android:8eefc98f472b6d4deb50e6",
+        "android_client_info": {
+          "package_name": "app.retrieval.retrievalapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "337343333139-9oagurq0bhqdh4qkfvsjldo59aonmg9p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9SSHxRPNRPQaDRpRUmZwIYNG0z93utzk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "337343333139-9oagurq0bhqdh4qkfvsjldo59aonmg9p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
