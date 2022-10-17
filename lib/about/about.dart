@@ -1,10 +1,12 @@
 import 'package:flutter/material.dart';
 
-class About extends StatelessWidget {
-  const About({super.key});
+class AboutScreen extends StatelessWidget {
+  const AboutScreen({super.key});
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold();
+    return Scaffold(
+      appBar: AppBar(),
+    );
   }
 }

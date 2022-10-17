@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
+import 'package:retrievalapp/routes.dart';
 import 'firebase_options.dart';
+import 'package:retrievalapp/routes.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -22,10 +24,10 @@ class _AppState extends State<App> {
     return FutureBuilder(
       future: _initialization,
       builder: (context, snapshot) {
-        
-
         if (snapshot.connectionState == ConnectionState.done) {
-          return const MaterialApp();
+          return MaterialApp(
+            routes: appRoutes,
+          );
         }
 
         return const Text('loading');
