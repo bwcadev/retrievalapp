@@ -3,6 +3,7 @@ import 'package:firebase_core/firebase_core.dart';
 import 'package:retrievalapp/routes.dart';
 import 'firebase_options.dart';
 import 'package:retrievalapp/routes.dart';
+import 'package:retrievalapp/theme.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -27,6 +28,7 @@ class _AppState extends State<App> {
         if (snapshot.connectionState == ConnectionState.done) {
           return MaterialApp(
             routes: appRoutes,
+            theme: appTheme,
           );
         }
 
