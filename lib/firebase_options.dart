@@ -44,7 +44,7 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyBeC2bQy3P5QIUMxwMjRp0GOwUISDjaz1M',
+    apiKey: '',
     appId: '1:337343333139:web:7e50f1194df6a8efeb50e6',
     messagingSenderId: '337343333139',
     projectId: 'csretrieval',
@@ -53,7 +53,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyD9SSHxRPNRPQaDRpRUmZwIYNG0z93utzk',
+    apiKey: '',
     appId: '1:337343333139:android:8eefc98f472b6d4deb50e6',
     messagingSenderId: '337343333139',
     projectId: 'csretrieval',
@@ -61,7 +61,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyBe2fL8LK42C_sDqHVQ4v8NQnIyVfMre9A',
+    apiKey: '',
     appId: '1:337343333139:ios:684e72011cd405cbeb50e6',
     messagingSenderId: '337343333139',
     projectId: 'csretrieval',
@@ -71,7 +71,7 @@ class DefaultFirebaseOptions {
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyBe2fL8LK42C_sDqHVQ4v8NQnIyVfMre9A',
+    apiKey: '',
     appId: '1:337343333139:ios:684e72011cd405cbeb50e6',
     messagingSenderId: '337343333139',
     projectId: 'csretrieval',
