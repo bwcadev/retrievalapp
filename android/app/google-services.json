@@ -29,6 +29,13 @@
             {
               "client_id": "337343333139-9oagurq0bhqdh4qkfvsjldo59aonmg9p.apps.googleusercontent.com",
               "client_type": 3
+            },
+            {
+              "client_id": "337343333139-tdn908s0he1p9fova6bl8li6d6famig7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "app.retrieval.retrievalapp"
+              }
             }
           ]
         }

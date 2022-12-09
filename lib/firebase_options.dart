@@ -23,15 +23,9 @@ class DefaultFirebaseOptions {
       case TargetPlatform.android:
         return android;
       case TargetPlatform.iOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for ios - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return ios;
       case TargetPlatform.macOS:
-        throw UnsupportedError(
-          'DefaultFirebaseOptions have not been configured for macos - '
-          'you can reconfigure this by running the FlutterFire CLI again.',
-        );
+        return macos;
       case TargetPlatform.windows:
         throw UnsupportedError(
           'DefaultFirebaseOptions have not been configured for windows - '
@@ -64,5 +58,25 @@ class DefaultFirebaseOptions {
     messagingSenderId: '337343333139',
     projectId: 'csretrieval',
     storageBucket: 'csretrieval.appspot.com',
+  );
+
+  static const FirebaseOptions ios = FirebaseOptions(
+    apiKey: 'AIzaSyBe2fL8LK42C_sDqHVQ4v8NQnIyVfMre9A',
+    appId: '1:337343333139:ios:684e72011cd405cbeb50e6',
+    messagingSenderId: '337343333139',
+    projectId: 'csretrieval',
+    storageBucket: 'csretrieval.appspot.com',
+    iosClientId: '337343333139-tdn908s0he1p9fova6bl8li6d6famig7.apps.googleusercontent.com',
+    iosBundleId: 'app.retrieval.retrievalapp',
+  );
+
+  static const FirebaseOptions macos = FirebaseOptions(
+    apiKey: 'AIzaSyBe2fL8LK42C_sDqHVQ4v8NQnIyVfMre9A',
+    appId: '1:337343333139:ios:684e72011cd405cbeb50e6',
+    messagingSenderId: '337343333139',
+    projectId: 'csretrieval',
+    storageBucket: 'csretrieval.appspot.com',
+    iosClientId: '337343333139-tdn908s0he1p9fova6bl8li6d6famig7.apps.googleusercontent.com',
+    iosBundleId: 'app.retrieval.retrievalapp',
   );
 }
